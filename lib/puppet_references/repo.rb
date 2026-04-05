@@ -46,7 +46,7 @@ module PuppetReferences
           puts "In #{@name} dir: Running bundle update."
           PuppetReferences::Util.run_dirty_command('bundle update')
         else
-          puts "In #{name} dir: Running bundle config set --local path '.bundle/stuff'"
+          puts "In #{@name} dir: Running bundle config set --local path '.bundle/stuff'"
           PuppetReferences::Util.run_dirty_command("bundle config set --local path '.bundle/stuff'")
           puts "In #{@name} dir: Running bundle install"
           PuppetReferences::Util.run_dirty_command('bundle install')
