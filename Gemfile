@@ -27,11 +27,6 @@ group(:generate_references) do
   gem 'yard', '~> 0.9'
 end
 
-group(:unknown) do
-  gem 'activerecord', '>= 7.1.5.2'
-  gem 'maruku', '~> 0.7'
-end
-
 group(:development) do
   gem 'rubocop-rake', require: false
   gem 'voxpupuli-rubocop', '~> 5.1.0'
