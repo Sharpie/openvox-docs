@@ -5,6 +5,10 @@ permalink: /
 hero:
   name: OpenVox
   tagline: Modern open source implementation of the world's most capable configuration management platform.
+  branding:
+    logo:
+      default: 'https://github.com/voxpupuli/logos/blob/master/images/OpenVox/Sticker/HexagonSticker.svg?raw=true'
+      alt: OpenVox Automation Framework
 
 features:
   - icon: 🔍
