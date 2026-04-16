@@ -157,7 +157,7 @@
     link: "services_agent_windows.html"
   - text: OpenVox apply
     link: "services_apply.html"
-- text: The OpenVox language
+- text: The Puppet language
   items:
   - text: Visual index
     link: "lang_visual_index.html"
